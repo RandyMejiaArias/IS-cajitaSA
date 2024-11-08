@@ -1,7 +1,11 @@
 import cron from 'node-cron'
 
-async function main() {
+import { createCSV } from './app.js'
 
+async function main() {
+  await cron.schedule('*/10 * * * * *', async () => {
+    await createCSV()
+  })
 }
 
 main()
