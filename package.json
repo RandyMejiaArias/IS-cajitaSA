@@ -10,5 +10,12 @@
   },
   "keywords": [],
   "author": "Randy Mejía Arias",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "moment-timezone": "^0.5.46"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "github:faker-js/faker"
+  }
 }
